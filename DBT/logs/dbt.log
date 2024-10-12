@@ -1,0 +1,31 @@
+[0m18:05:17.883244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DE23E9250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DE23E9410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DE23E9750>]}
+
+
+============================== 18:05:17.904297 | f0af6042-4bbe-4a56-8466-97196f848a1d ==============================
+[0m18:05:17.904297 [info ] [MainThread]: Running with dbt=1.8.7
+[0m18:05:17.906297 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\NurselamHussen-ZOAEt\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m18:05:18.228404 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/NurselamHussen-ZOAEt/.dbt')}
+[0m18:05:18.230402 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m18:05:58.927761 [debug] [MainThread]: Starter project path: C:\Users\NurselamHussen-ZOAEt\Downloads\New folder\10 Academy-project\Week-7\.venv\Lib\site-packages\dbt\include\starter_project
+[0m18:05:59.052408 [info ] [MainThread]: 
+Your new dbt project "lobelidata" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:05:59.055411 [info ] [MainThread]: Setting up your profile.
+[0m18:09:37.712161 [info ] [MainThread]: Profile lobelidata written to C:\Users\NurselamHussen-ZOAEt\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:09:37.719743 [debug] [MainThread]: Command `dbt init` succeeded at 18:09:37.717985 after 259.97 seconds
+[0m18:09:37.720101 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DDC68A150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DE2158C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DDC88E050>]}
+[0m18:09:37.723572 [debug] [MainThread]: Flushing usage events
+[0m18:09:37.877129 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.

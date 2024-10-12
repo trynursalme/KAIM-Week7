@@ -1,0 +1,21 @@
+version: 2
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: cleandata
+
+
+models:
+  - name: lobeli_transformed
+    description: "Lobeli data transformed"
+    columns:
+        - name: ID
+          description: "ID number of the Message"
+          data_tests:
+            - unique
+            - not_null
+        - name: Message
+          description: "The Message of the channel"
+          data_tests:
+            - not_null
